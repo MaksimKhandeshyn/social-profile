@@ -1,6 +1,8 @@
 import "./App.css";
 import user from "./data/user.json";
+import friends from "./data/friendlist.json";
 import { Profile } from "./Profile/Profile";
+import { FriendList } from "./FriendList/FriendList";
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,7 @@ function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <FriendList friends={friends} />;
     </div>
   );
 }

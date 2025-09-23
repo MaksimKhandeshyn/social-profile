@@ -49,3 +49,11 @@ li {
   background-color: #b7b7b7;
   padding: 10px;
 }
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 10px 5px 5px rgba(238, 12, 144, 0.2);
+  margin-top: 10px;
+}
