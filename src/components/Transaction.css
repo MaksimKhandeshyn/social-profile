@@ -1,0 +1,8 @@
+thead {
+  background-color: rgb(17, 169, 215);
+  color: white;
+}
+
+td:nth-child(even) {
+  background-color: gray;
+}

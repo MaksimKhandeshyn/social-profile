@@ -2,9 +2,11 @@ import "./App.css";
 import user from "./data/user.json";
 import friends from "./data/friendlist.json";
 import data from "./data/statistcs.json";
+import transaction from "./data/transactions.json";
 import { Profile } from "./Profile/Profile";
 import { FriendList } from "./FriendList/FriendList";
 import { Statistics } from "./Statistics/Statistics";
+import { Transaction } from "./Transaction/Transaction";
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
       />
       <FriendList friends={friends} />
       <Statistics title="Upload stats" stats={data} />
+      <Transaction items={transaction}></Transaction>
     </div>
   );
 }
