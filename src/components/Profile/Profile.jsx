@@ -1,4 +1,4 @@
-import user from "../data/user.json";
+import user from "../../data/user.json";
 export const Profile = () => {
   return (
     <div className="profile">

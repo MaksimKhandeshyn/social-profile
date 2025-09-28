@@ -8,9 +8,9 @@
 }
 
 .status.online {
-  background-color: #4caf50; /* green */
+  background-color: #4caf50;
 }
 
 .status.offline {
-  background-color: #f44336; /* red */
+  background-color: #f44336;
 }

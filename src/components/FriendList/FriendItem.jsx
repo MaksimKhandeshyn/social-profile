@@ -1,4 +1,4 @@
-import "../components/Friends.css";
+import "./Friends.css";
 export const FriendItem = ({ friends: { isOnline, avatar, name } }) => {
   return (
     <li className="item">
